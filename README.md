@@ -15,13 +15,11 @@ Image degradation (blur, noise, exposure, contrast) is usually treated as a nuis
 degradation-aware-medical-ai/
 ├── Part 1/                  # Fundus: APTOS-2019 -> Messidor-2
 │   ├── mainv1.ipynb         # full pipeline (Kaggle T4 notebook)
-│   ├── ckpt/                # model checkpoints
 │   ├── features/            # degradation features and cached features
 │   ├── results/             # tables (CSV), figures, per-image predictions
 │   └── __huggingface_repos__.json
 └── Part 2/                  # CXR: NIH ChestX-ray14 -> Kermany
     ├── mainv2.ipynb
-    ├── ckpt/
     ├── features/
     ├── results/
     └── __huggingface_repos__.json
