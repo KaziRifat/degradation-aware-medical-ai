@@ -1,0 +1,17 @@
+probe,value,sd,note
+NIH ChestX-ray14 5-fold AUC - LogReg,0.6211,0.0123,
+NIH ChestX-ray14 5-fold AUC - GBM,0.5895,0.0127,
+NIH ChestX-ray14 5-fold AUC - pyiqa-only (BRISQUE/NIQE/PIQE/MUSIQ),0.5073,0.0268,
+NIH ChestX-ray14 5-fold AUC - handcrafted-only,0.6125,0.0129,
+NEG CONTROL per-column shuffle (10 reps),0.493,0.0266,must be ~0.5
+NEG CONTROL per-row shuffle (10 reps),0.4944,0.017,must be ~0.5
+Kermany pediatric external AUC - LogReg (trained on NIH ChestX-ray14 train),0.7671,,
+Kermany pediatric external AUC - GBM,0.5291,,
+Kermany pediatric external AUC - BRISQUE alone (raw sign),0.6765,,
+NIH ChestX-ray14 train AUC - BRISQUE alone (raw sign),0.5022,,
+NIH: AUC predicting pneumonia from VIEW alone (AP=1),0.5777,,acquisition-protocol shortcut strength
+NIH: AUC predicting VIEW (AP vs PA) from degradation features,0.9714,0.0047,degradation encodes the acquisition protocol
+NIH: degradation->pneumonia AUC WITHIN AP only,0.6021,0.0216,association left after fixing the protocol
+NIH: degradation->pneumonia AUC WITHIN PA only,0.5699,0.0193,association left after fixing the protocol
+"NIH: Spearman(BRISQUE, age)",-0.1617,,
+NIH: AUC predicting pneumonia from AGE alone,0.4725,,
