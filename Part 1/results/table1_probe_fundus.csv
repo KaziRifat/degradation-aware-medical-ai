@@ -1,0 +1,12 @@
+probe,value,sd,note
+APTOS-2019 5-fold AUC - LogReg,0.9023,0.0094,
+APTOS-2019 5-fold AUC - GBM,0.9413,0.0088,
+APTOS-2019 5-fold AUC - pyiqa-only (BRISQUE/NIQE/PIQE/MUSIQ),0.872,0.0181,
+APTOS-2019 5-fold AUC - handcrafted-only,0.7585,0.027,
+NEG CONTROL per-column shuffle (10 reps),0.4956,0.0174,must be ~0.5
+NEG CONTROL per-row shuffle (10 reps),0.5122,0.0149,must be ~0.5
+Messidor-2 external AUC - LogReg (trained on APTOS-2019 train),0.6479,,
+Messidor-2 external AUC - GBM,0.6331,,
+Messidor-2 external AUC - BRISQUE alone (raw sign),0.393,,
+APTOS-2019 train AUC - BRISQUE alone (raw sign),0.6676,,
+"Messidor-2 5-grade QWK (GBM trained on APTOS-2019, degradation only)",0.1876,,
