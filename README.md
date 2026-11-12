@@ -78,7 +78,6 @@ The `ckpt/` folders can be large. If the repository exceeds GitHub's file-size l
 
 ## Contact
 
-Kazi Rifat Ahmed, Department of Software Engineering, Daffodil International University, Dhaka, Bangladesh. Email: rifat.swe@diu.edu.bd
 
 ## License
 
